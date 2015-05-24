@@ -17,7 +17,7 @@ complete <- function(directory, id = 1:332) {
     completeCases <- rbind(completeCases, data.frame(i,nobs))
   
   }
-  
+
   completeCases
 
 }
